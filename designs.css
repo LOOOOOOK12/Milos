@@ -1,0 +1,117 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.Milosbg{
+  background-image: url("pics/UpKepdqi_400x400.jpg");
+  background-color: rgb(24, 24, 24);
+
+}
+  /*Opening block start*/
+  .Opening{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    display: block;
+    text-align: center;
+  }
+  .header1{
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .Milos {
+    width: 150px;
+    border-radius: 10px;
+    float: none;
+  }
+    .sub2 {
+    font-weight: normal;
+  }
+
+    
+/* end of opening*/
+
+/*paragraph 1*/
+.paragraph1{
+    margin: auto;
+    width: 300px;
+    display: block;
+    text-align: center;   
+}
+
+.Who{
+    font-size: 15px;
+    text-align: justify;
+}
+.about{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.origins{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.memes{
+  margin: auto;
+  width: 300px;
+  display: block;
+  text-align: center;
+}
+
+.meme{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/*butons*/
+
+.Buttons{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+  .Sub-b {
+    background-color: rgb(187, 4, 4);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .JOIN {
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    height: 30px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .TWEET {
+    color: white;
+    background-color: rgb(0, 172, 238);
+    border-color: rgb(0, 172, 238);
+    border-radius: 50px;
+    border-style: solid;
+    height: 30px;
+    width: 62px;
+    cursor: pointer;
+  }
+  /*hovers*/
+
+  .sub2:hover{
+    color: rgb(240, 113, 113);
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    cursor: pointer;
+  }
